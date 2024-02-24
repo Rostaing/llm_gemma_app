@@ -1,9 +1,9 @@
 import streamlit as st
 import ollama
-import time
 
 
 def llm_model():
+    st.header("Large Language Model (LLM) - Gemma App")
     prompt = st.chat_input("Ask anything")
 
     if prompt:
